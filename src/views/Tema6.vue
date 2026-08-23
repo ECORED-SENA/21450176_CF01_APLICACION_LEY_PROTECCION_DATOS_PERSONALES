@@ -489,8 +489,6 @@
         .col-12.col-lg-7.order-2.order-lg-2.bg-color-4.p-4(data-aos="fade-left")
           p.mb-2.fw-bold Aplicación práctica
           p.mb-0 La documentación relacionada con el tratamiento de datos personales debe mantenerse organizada, actualizada y protegida mediante controles de acceso. Asimismo, es recomendable establecer responsables de su administración, fechas de revisión periódica y mecanismos de control de versiones que permitan asegurar que toda la organización utilice los documentos vigentes.
-
-      
 </template>
 
 <script>
