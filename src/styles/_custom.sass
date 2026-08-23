@@ -45,12 +45,12 @@
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    background-image: url(../assets/curso/temas/bg/fondo.svg)    
+    background-image: url(../assets/curso/temas/bg/fondo1.svg)
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
     background-size: cover    
   &-2
-    background-image: url(../assets/curso/temas/bg/fondo1.svg)    
+    background-image: url(../assets/curso/temas/bg/fondo2.svg)    
     background-repeat: no-repeat
     margin-inline: -3.2rem !important
     background-size: cover
@@ -58,25 +58,25 @@
   &-1
     background-color: $color-primario
   &-2
-    background-color: #FBF1D5  
+    background-color: #E4DBF0  
   &-3
-    background-color: #F2D499
+    background-color: #D7EAD5
   &-4
-    background-color: #e8f5f6
+    background-color: #F4F9F4
   &-5
-    background-color: #ffe9b5
+    background-color: #9CCD98
   &-6
-    background-color: #53706e
+    background-color: #FFD398
   &-7
-    background-color: #FBF5CC
+    background-color: #FFF3E4  
   &-8
-    background-color: #F8EB9B
+    background-color: #F7F5FB
   &-9
-    background-color: #FDF9E4
+    background-color: #f4f3ed
   &-10
-    background-color: #c92a2a
+    background-color: #ffe8cb
   &-11
-    background-color: #7a6d4a
+    background-color: #5d536d
 /**************************************************************/
 
 
@@ -113,7 +113,7 @@
 
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
   
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner_interno.png") !important
@@ -125,11 +125,11 @@
   position: relative
   display: inline-flex
   align-items: center
-  background-color: #FFC94A
+  background-color: #FF9200
   border-radius: 30px
   padding-right: 16px
   padding-left: 52px
-  min-height: 48px
+  min-height: 40px
  
   @media screen and (max-width: $bp-min-md)
     padding-left: 0px
@@ -229,7 +229,7 @@
 
 /*Accordion*/
 .tarjeta.acordeonA
-  background-color: #d3ecee !important
+  background-color: #D7EAD5 !important
   transition: background-color 0.3s ease-in-out
   
   .acordion__header
@@ -238,7 +238,7 @@
         color: #000 !important
 
   &.acordion__activo
-    background-color: #FBF1D5 !important
+    background-color: #FFE8CB !important
     .acordion__header
       .acordion__titulo
         h3, h4, span, a, p
@@ -249,7 +249,7 @@
         color: #000000 !important
 
 .acordion__accion__btn--a
-  background-color: #ff9800 !important 
+  background-color: #FFC94A !important 
   i
     color: #000 !important
 
@@ -281,7 +281,7 @@
       padding: 0 !important
       margin: 0 !important
       border-radius: 50% !important
-      background-color: #ff9800 !important
+      background-color: #FFC94A !important
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
       font-size: 16px      
       color: #ffffff !important
@@ -291,9 +291,9 @@
         background-color: transparent !important
         box-shadow: none !important
         font-size: 20px !important
-        color: #ff9800 !important 
+        color: #FFC94A !important 
         &::before
-          color: #ff9800 !important
+          color: #FFC94A !important
 
 .bordes
   border: 1px solid #CBD5E0 !important
@@ -362,23 +362,6 @@
   text-align: left !important
 //Final Titulo Nivel 4
 
-
-
-
-.lista-ul.color-vinotinto-custom
-  li.d-flex
-    align-items: start !important 
-    margin-bottom: 1rem !important     
-    .fas.fa-carrot
-      color: #b18c32 !important 
-      font-size: 1.15rem !important
-      margin-top: 2px !important
-      display: inline-block !important
-      &::before
-        color: #b18c32 !important 
-    span
-      display: inline-block !important
-      line-height: 1.2 !important
 
 
 .gy-tarjetas
@@ -475,15 +458,15 @@
 
 /*Audio*/
 .bg-custom-teal
-  background-color: #7a6d4a !important 
+  background-color: #5d536d !important 
   position: relative
   overflow: hidden
   
 .bg-custom-dark-teal
-  background-color: #7a6d4a !important
+  background-color: #5d536d !important
 
 .border-lemon
-  border: 4px solid #f6db96 !important
+  border: 4px solid #bca8d8 !important
   border-radius: 15px
 
 /*Fin Audio*/
@@ -556,14 +539,14 @@
   font-weight: bold
 
 .tabs-c__content-item
-  background-color: #FDF8EA
+  background-color: #F1EDF7
   padding: 2rem
 
 .tabs-c
   border-bottom: none !important
 
 .tabs-a__tab
-  background-color: #FDF8EA
+  background-color: #F1EDF7
 /*Pestanas*/
 
 
@@ -590,16 +573,32 @@
     align-items: start !important 
     margin-bottom: 1rem !important     
     .fas.fa-check-circle
-      color: #53706e !important 
+      color: #B16500 !important 
       font-size: 1.15rem !important
       margin-top: 4px !important
       display: inline-block !important      
       &::before
-        color: #53706e !important 
-
+        color: #B16500 !important
     span
       display: inline-block !important
-      line-height: 1.4 !important
+      line-height: 1.6 !important
+
+.lista-ul.color-naranja-custom
+  li.d-flex
+    align-items: start !important 
+    margin-bottom: 1rem !important     
+    .fas.fa-arrow-circle-right,
+    .fas.fa-circle-chevron-right
+      color: #FF9200 !important 
+      font-size: 1.15rem !important
+      margin-top: 4px !important
+      display: inline-block !important      
+      &::before
+        color: #FF9200 !important
+    span
+      display: inline-block !important
+      line-height: 1.6 !important
+
 
 .lista-amarilla li i.fas::before,
 .lista-amarilla li .fas::before
