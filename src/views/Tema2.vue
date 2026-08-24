@@ -368,7 +368,7 @@
                     h4.mb-2.text-white Actividades de aplicación y análisis de la Ley 1581 de 2012
                     p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de la Ley 1581 de 2012</b>, donde se aborda el ámbito de aplicación, las definiciones fundamentales, las obligaciones de las organizaciones y las excepciones previstas en la Ley 1581 de 2012 mediante casos de análisis y una actividad práctica.
                   .mt-3.mt-lg-0.ps-lg-4
-                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02_Actividades_Ley_1581_2012.pdf')" target="_blank")
                       span.fw-bold.me-2 Descargar
                       i.fas.fa-file-download
 </template>

@@ -7,14 +7,14 @@
           span 5
         h1 Derechos y condiciones de legalidad para el tratamiento de datos
       p(data-aos="fade-left") El tratamiento de datos personales no se limita a la recolección, el almacenamiento o el uso de la información. También implica garantizar que los titulares puedan ejercer control sobre sus datos y que las organizaciones actúen bajo condiciones legales claras, verificables y respetuosas de los derechos fundamentales. En este sentido, la Ley 1581 de 2012 desarrolla el derecho de las personas a conocer, actualizar, rectificar y, cuando corresponda, solicitar la supresión de la información recopilada sobre ellas en bases de datos o archivos.
-      .row.align-items-center.mb-5(data-aos="fade-right")
+      .row.align-items-center(data-aos="fade-right")
         .col-lg-8.order-2.order-lg-1
           .row.g-0.align-items-stretch.bg-color-6.mb-4
             .col-12.col-md-5.px-0
               img(src="@/assets/curso/temas/t5/img1.png", style="width:100%; height:100%; object-fit:cover;")
             .col-12.col-md-7.p-4.d-flex.align-items-center
               p.mb-0 En el contexto organizacional, el cumplimiento de estas condiciones va más allá de disponer de un aviso de privacidad o de una autorización firmada. También exige demostrar que la información se recopila para finalidades legítimas, que el titular conoce el uso de sus datos, que existen mecanismos para atender consultas y reclamaciones y que se aplican medidas de seguridad durante todo el ciclo de vida de la información.
-          p.mb-0.bg-color-10.p-4 El desconocimiento de los derechos de los titulares o el tratamiento de datos sin cumplir los requisitos legales puede generar reclamaciones, investigaciones administrativas, sanciones, pérdida de confianza y afectaciones reputacionales. Por ello, las organizaciones deben implementar procedimientos que garanticen el ejercicio efectivo de estos derechos.
+          p.mb-0.bg-color-7.p-4 El desconocimiento de los derechos de los titulares o el tratamiento de datos sin cumplir los requisitos legales puede generar reclamaciones, investigaciones administrativas, sanciones, pérdida de confianza y afectaciones reputacionales. Por ello, las organizaciones deben implementar procedimientos que garanticen el ejercicio efectivo de estos derechos.
         .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
           figure.mb-0
             img(src="@/assets/curso/temas/t5/img2.png", data-aos="zoom-in", style="width: 320px;").mx-auto
@@ -395,23 +395,23 @@
                         figure
                           img(src='@/assets/curso/temas/t5/img11.png', style="width: 500px", data-aos="zoom-in").m-auto
               //- Fin Carrusel
-            Separador
-            //- Inicio Tema5.3
-            .row
-              #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-                h2 5.3 Condiciones de legalidad 
-            .row.align-items-center(data-aos="fade-right")
-              .col-lg-8.order-2.order-lg-1
-                .row.g-0.align-items-stretch.bg-color-2.mb-4
-                  .col-12.col-md-5.px-0
-                    img(src="@/assets/curso/temas/t5/img12.png", style="width:100%; height:100%; object-fit:cover;")
-                  .col-12.col-md-7.p-4.d-flex.align-items-center
-                    p.mb-0 Las condiciones de legalidad corresponden a los requisitos que permiten determinar si el tratamiento de datos personales se realiza conforme a la Ley 1581 de 2012 y a las demás disposiciones aplicables. Estas condiciones garantizan que la recolección, el uso, el almacenamiento, la circulación, la conservación y la supresión de la información respeten los derechos de los titulares y respondan a una finalidad legítima.
-                p.mb-3 Una organización puede disponer de procesos bien estructurados y herramientas tecnológicas avanzadas; sin embargo, si recopila información sin autorización, la utiliza para finalidades diferentes a las informadas o no garantiza el ejercicio de los derechos de los titulares, el tratamiento puede resultar contrario a la normativa.
-                pmb-0 La verificación de las condiciones de legalidad debe realizarse antes de iniciar el tratamiento, durante su ejecución y al finalizar el ciclo de vida de los datos personales. Este proceso permite identificar riesgos, prevenir incumplimientos y fortalecer la gestión de la información. Los principales aspectos relacionados con las condiciones de legalidad se presentan a continuación:
-              .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
-                figure.mb-0
-                  img(src="@/assets/curso/temas/t5/img13.png", data-aos="zoom-in", style="width: 100%; max-width: 380px;").mx-auto
+      Separador
+      //- Inicio Tema5.3
+      .row
+        #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 5.3 Condiciones de legalidad 
+      .row.align-items-center(data-aos="fade-right")
+        .col-lg-8.order-2.order-lg-1
+          .row.g-0.align-items-stretch.bg-color-6.mb-4
+            .col-12.col-md-5.px-0
+              img(src="@/assets/curso/temas/t5/img12.png", style="width:100%; height:100%; object-fit:cover;")
+            .col-12.col-md-7.p-4.d-flex.align-items-center
+              p.mb-0 Las condiciones de legalidad corresponden a los requisitos que permiten determinar si el tratamiento de datos personales se realiza conforme a la Ley 1581 de 2012 y a las demás disposiciones aplicables. Estas condiciones garantizan que la recolección, el uso, el almacenamiento, la circulación, la conservación y la supresión de la información respeten los derechos de los titulares y respondan a una finalidad legítima.
+          p.mb-3 Una organización puede disponer de procesos bien estructurados y herramientas tecnológicas avanzadas; sin embargo, si recopila información sin autorización, la utiliza para finalidades diferentes a las informadas o no garantiza el ejercicio de los derechos de los titulares, el tratamiento puede resultar contrario a la normativa.
+          pmb-0 La verificación de las condiciones de legalidad debe realizarse antes de iniciar el tratamiento, durante su ejecución y al finalizar el ciclo de vida de los datos personales. Este proceso permite identificar riesgos, prevenir incumplimientos y fortalecer la gestión de la información. Los principales aspectos relacionados con las condiciones de legalidad se presentan a continuación:
+        .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
+          figure.mb-0
+            img(src="@/assets/curso/temas/t5/img13.png", data-aos="zoom-in", style="width: 100%; max-width: 380px;").mx-auto
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
@@ -573,7 +573,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de los derechos de los titulares y las condiciones de legalidad
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de los derechos de los titulares y las condiciones de legalidad</b>, donde se aborda la aplicación práctica de los derechos de los titulares, la autorización para el tratamiento de datos personales y las condiciones de legalidad establecidas en la Ley 1581 de 2012.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_05_Derechos_Titulares_Condiciones_Legalidad.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download                  
 </template>

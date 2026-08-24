@@ -7,7 +7,7 @@
           span 4
         h1 Categorías especiales de datos personales
       p(data-aos="fade-left") La protección de datos personales exige reconocer que no toda la información tiene el mismo nivel de sensibilidad, exposición o riesgo. Algunos datos pueden consultarse en fuentes públicas; otros requieren autorización para ser utilizados y algunos demandan medidas especiales de protección, debido a que pueden afectar la intimidad, la seguridad, la dignidad o los derechos fundamentales de una persona.
-      .row.align-items-center.mb-5(data-aos="fade-right")
+      .row.align-items-center.mb-3(data-aos="fade-right")
         .col-lg-8.order-2.order-lg-1
           .row.g-0.align-items-stretch.bg-color-3.mb-4
             .col-12.col-md-5.px-0
@@ -17,7 +17,7 @@
           p.mb-0.bg-color-4.p-4 En el contexto organizacional, clasificar correctamente los datos constituye una actividad esencial para cumplir la normativa. No es equivalente tratar datos de contacto de un cliente que administrar historias clínicas, información financiera, datos biométricos o información de niños, niñas y adolescentes. Cada categoría requiere un tratamiento proporcional al nivel de riesgo que representa.
         .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
           figure.mb-0
-            img(src="@/assets/curso/temas/t4/img2.png", data-aos="zoom-in", style="width: 100%; max-width: 380px;").mx-auto
+            img(src="@/assets/curso/temas/t4/img2.png", data-aos="zoom-in", style="width: 100%; max-width: 360px;").mx-auto
       p(data-aos="fade-left") Además, esta clasificación facilita la elaboración de políticas de tratamiento de datos personales, inventarios de bases de datos, matrices de riesgos y controles de seguridad. Por ello, antes de recopilar información, la organización debe identificar qué datos necesita, con qué finalidad los utilizará, quién podrá acceder a ellos y cuáles serán las medidas implementadas para garantizar su protección.            
       Separador
       //- Inicio Tema4.1
@@ -230,7 +230,7 @@
       .row.mb-5.justify-content-center.align-items-center        
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
-            img.mx-auto(src='@/assets/curso/temas/t4/img11.png', alt='', style="width: 100%; max-width: 500px;")
+            img.mx-auto(src='@/assets/curso/temas/t4/img11.png', alt='', style="width: 100%; max-width: 550px;")
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-10.p-3(data-aos="fade-left")
           p.mb-3.fw-bold Ejemplo organizacional
           p Una empresa solicita información sobre las condiciones médicas de sus trabajadores para desarrollar actividades de seguridad y salud en el trabajo. Antes de recopilar esta información, informa la finalidad del tratamiento, limita el acceso al personal competente y adopta medidas de seguridad para proteger los documentos físicos y digitales donde se almacena la información. Las principales medidas para fortalecer la protección de los datos sensibles se presentan a continuación:
@@ -277,25 +277,25 @@
             .row
               #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
                 h2 4.3 Datos de niños, niñas y adolescentes
-      p(data-aos="fade-left") Los datos personales de niños, niñas y adolescentes cuentan con una protección especial, debido a que sus titulares se encuentran en una condición que exige mayores garantías para la protección de sus derechos. En consecuencia, cualquier tratamiento de esta información debe orientarse por el principio del interés superior del menor y por el respeto de sus derechos fundamentales.
-      .row.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-8.order-2.order-lg-1
-          .row.g-0.align-items-stretch.bg-color-2.mb-4
-            .col-12.col-md-5.px-0
-              img(src="@/assets/curso/temas/t4/img12.png", style="width:100%; height:100%; object-fit:cover;")
-            .col-12.col-md-7.p-4.d-flex.align-items-center
-              p.mb-0 Las organizaciones que administran información de menores de edad, como instituciones educativas, entidades deportivas, fundaciones, plataformas tecnológicas, programas sociales, entidades de salud y organizaciones recreativas, deben actuar con especial diligencia durante la recolección, el uso, el almacenamiento, la circulación y la eliminación de estos datos.
-          p.mb-0.bg-color-8.p-4 El tratamiento de esta información no debe limitarse al cumplimiento de requisitos administrativos. También debe considerar los riesgos derivados de la posible exposición de fotografías, información académica, datos familiares, información médica, datos de ubicación o cualquier otro dato que pueda comprometer la seguridad, la intimidad o el desarrollo integral del menor.
-        .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
-          figure.mb-0
-            img(src="@/assets/curso/temas/t4/img14.png", data-aos="zoom-in", style="width: 100%; max-width: 350px;").mx-auto
-      p(data-aos="fade-left") Por esta razón, las organizaciones deben establecer procedimientos específicos para garantizar un tratamiento seguro, proporcional y conforme con la normativa vigente. Los principales aspectos relacionados con el tratamiento de datos personales de niños, niñas y adolescentes se presentan a continuación:
+            p(data-aos="fade-left") Los datos personales de niños, niñas y adolescentes cuentan con una protección especial, debido a que sus titulares se encuentran en una condición que exige mayores garantías para la protección de sus derechos. En consecuencia, cualquier tratamiento de esta información debe orientarse por el principio del interés superior del menor y por el respeto de sus derechos fundamentales.
+            .row.align-items-center.mb-5(data-aos="fade-right")
+              .col-lg-8.order-2.order-lg-1
+                .row.g-0.align-items-stretch.bg-color-2.mb-4
+                  .col-12.col-md-5.px-0
+                    img(src="@/assets/curso/temas/t4/img12.png", style="width:100%; height:100%; object-fit:cover;")
+                  .col-12.col-md-7.p-4.d-flex.align-items-center
+                    p.mb-0 Las organizaciones que administran información de menores de edad, como instituciones educativas, entidades deportivas, fundaciones, plataformas tecnológicas, programas sociales, entidades de salud y organizaciones recreativas, deben actuar con especial diligencia durante la recolección, el uso, el almacenamiento, la circulación y la eliminación de estos datos.
+                p.mb-0.bg-color-8.p-4 El tratamiento de esta información no debe limitarse al cumplimiento de requisitos administrativos. También debe considerar los riesgos derivados de la posible exposición de fotografías, información académica, datos familiares, información médica, datos de ubicación o cualquier otro dato que pueda comprometer la seguridad, la intimidad o el desarrollo integral del menor.
+              .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t4/img13.png", data-aos="zoom-in", style="width: 100%; max-width: 350px;").mx-auto
+            p(data-aos="fade-left") Por esta razón, las organizaciones deben establecer procedimientos específicos para garantizar un tratamiento seguro, proporcional y conforme con la normativa vigente. Los principales aspectos relacionados con el tratamiento de datos personales de niños, niñas y adolescentes se presentan a continuación:
       //- Inicio Accordion
-      .bg--img_03.mt-5
+      .bg--img_03
         .row.justify-content-center
           .col-lg-3.mb-5.mb-lg-0
             figure(data-aos="zoom-in")
-              img(src="@/assets/curso/temas/t4/img4.png", alt="").img400.m-auto
+              img(src="@/assets/curso/temas/t4/img14.png", alt="").img400.m-auto
           .col-lg-9
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Protección especial")
@@ -374,10 +374,10 @@
           .pt-3.pb-5.px-5
             //- Inicio Tabla
             .row.justify-content-center.mb-5
-              .col-md-auto.col-lg-10
+              .col-md-auto.col-lg-12
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Tabla 3.
-                  span  Riesgos y medidas de protección en el tratamiento de datos personales en el ámbito educativo
+                  h5 Tabla 4.
+                  span Tratamiento de datos personales en diferentes entornos y controles de protección
                 .tabla-a
                   table
                     thead
@@ -413,10 +413,10 @@
             .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
               img(src='@/assets/curso/temas/bg/icono-descargar-4.svg', style="width: 80px")
             .flex-grow-1.text-center.text-lg-start
-              h4.mb-2.text-white Actividades de aplicación y análisis de las categorías especiales de datos personales[
+              h4.mb-2.text-white Actividades de aplicación y análisis de las categorías especiales de datos personales
               p.mb-0.text-white Se invita a leer el documento<b> Actividades de aplicación y análisis de las categorías especiales de datos personales</b>, donde se aborda la clasificación de los datos personales, el tratamiento de datos sensibles y de niños, niñas y adolescentes, así como las medidas de protección exigidas por la Ley 1581 de 2012.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_04_Categorias_Especiales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 

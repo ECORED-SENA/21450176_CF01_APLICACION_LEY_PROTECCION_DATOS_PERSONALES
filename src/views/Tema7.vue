@@ -17,7 +17,7 @@
           p.mb-0.p-4.bg-color-4 En el contexto organizacional, conocer el funcionamiento de estos mecanismos permite prevenir riesgos legales, fortalecer los controles internos y demostrar el cumplimiento de las obligaciones relacionadas con el tratamiento de datos personales.
         .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
           figure.mb-0
-            img(src="@/assets/curso/temas/t7/img2.png", data-aos="zoom-in", style="width: 100%; max-width: 300px;").mx-auto
+            img(src="@/assets/curso/temas/t7/img2.png", data-aos="zoom-in", style="width: 100%; max-width: 290px;").mx-auto
       p(data-aos="fade-left") Además de su función correctiva, la vigilancia y el control cumplen un propósito preventivo, ya que promueven la adopción de buenas prácticas, la mejora continua de los procesos y el fortalecimiento de la cultura organizacional en materia de protección de datos.
       Separador
       //- Inicio Tema7.1
@@ -30,7 +30,7 @@
             img.mx-auto(src="@/assets/curso/temas/t7/img3.png", data-aos="zoom-in", style="width: 500px; width: 100%;")
         .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
           p.p-3.bg-color-2.mb-3 Las autoridades de control son las entidades encargadas de vigilar el cumplimiento de las normas relacionadas con la protección de datos personales. Su función consiste en verificar que los responsables y encargados del tratamiento respeten los derechos de los titulares y cumplan las obligaciones establecidas por la normativa.
-          p.p-3.bg-color-8.rounded-4.mb-0 En Colombia, la Superintendencia de Industria y Comercio (SIC) ejerce la autoridad nacional de protección de datos personales. Entre sus funciones se encuentran recibir quejas, adelantar investigaciones, impartir instrucciones, realizar actividades de inspección y vigilancia, ordenar medidas correctivas e imponer sanciones cuando se evidencien incumplimientos.
+          p.p-3.bg-color-8.mb-0 En Colombia, la Superintendencia de Industria y Comercio (SIC) ejerce la autoridad nacional de protección de datos personales. Entre sus funciones se encuentran recibir quejas, adelantar investigaciones, impartir instrucciones, realizar actividades de inspección y vigilancia, ordenar medidas correctivas e imponer sanciones cuando se evidencien incumplimientos.
       p(data-aos="fade-left") Para las organizaciones, la existencia de una autoridad de control implica la necesidad de conservar evidencias que demuestren el cumplimiento de la normativa. Las políticas, autorizaciones, procedimientos, registros, contratos y controles de seguridad constituyen elementos esenciales para acreditar una gestión adecuada del tratamiento de los datos personales. Los principales aspectos relacionados con las autoridades de control se presentan a continuación:          
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
@@ -113,7 +113,7 @@
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Clasificación según la aptitud productiva
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Aplicación práctica
       //- Título nivel 3 - Imagen
       p(data-aos="fade-left") Para facilitar una eventual actividad de supervisión, la organización debe mantener organizada y actualizada la documentación relacionada con la protección de datos personales, incluyendo las autorizaciones, las políticas de tratamiento, los registros de solicitudes, las respuestas suministradas a los titulares, los contratos con encargados y las evidencias de las medidas de seguridad implementadas. Los principales documentos que pueden ser requeridos durante una inspección son los siguientes:
       .row.bg-fondo-1(data-aos="fade-right")
@@ -357,7 +357,7 @@
             img.mx-auto(src="@/assets/curso/temas/t7/img12.png", data-aos="zoom-in", style="width: 500px; width: 100%;")
         .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
           p.p-3.bg-color-9.mb-3 La gestión del riesgo legal consiste en identificar, evaluar y controlar las situaciones que pueden generar incumplimientos de la normativa sobre protección de datos personales. Su propósito es prevenir sanciones, proteger los derechos de los titulares y fortalecer el cumplimiento de las obligaciones establecidas en la Ley 1581 de 2012.
-          p.p-3.bg-color-11.mb-0 Este enfoque permite anticiparse a los riesgos antes de que se conviertan en incidentes, reclamaciones o investigaciones administrativas. Actividades como revisar periódicamente las bases de datos, validar las autorizaciones, capacitar al personal, supervisar a los encargados del tratamiento y actualizar la documentación contribuyen a reducir la probabilidad de incumplimientos.
+          p.p-3.bg-color-12.mb-0 Este enfoque permite anticiparse a los riesgos antes de que se conviertan en incidentes, reclamaciones o investigaciones administrativas. Actividades como revisar periódicamente las bases de datos, validar las autorizaciones, capacitar al personal, supervisar a los encargados del tratamiento y actualizar la documentación contribuyen a reducir la probabilidad de incumplimientos.
       p(data-aos="fade-left") La gestión del riesgo legal debe incorporarse a los procesos organizacionales como una actividad permanente de planificación, seguimiento y mejora continua. De esta manera, la organización fortalece su capacidad para responder oportunamente ante auditorías, requerimientos de las autoridades, incidentes de seguridad o solicitudes presentadas por los titulares. Los principales componentes de la gestión del riesgo legal se presentan a continuación:
       //- Inicio Accordion
       .bg--img_03.mt-5
@@ -547,31 +547,31 @@
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t7/img17.png', alt='', style="width: 100%; max-width: 450px;")
-        .col-12.col-lg-7.order-2.order-lg-1.bg-color-4.p-4(data-aos="fade-left")
+        .col-12.col-lg-7.order-2.order-lg-1.bg-color-13.p-4(data-aos="fade-left")
           p.mb-2.fw-bold Ejemplo
           p.mb-0 Antes de iniciar una campaña comercial, una empresa revisa las autorizaciones otorgadas por los titulares para recibir comunicaciones promocionales. Los registros que no cuentan con evidencia suficiente son excluidos de la campaña hasta verificar el cumplimiento de las condiciones de legalidad.
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-12
           .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-11.p-4.rounded-4
             .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
-              img(src='@/assets/curso/temas/bg/icono-descargar.svg', style="width: 80px")
+              img(src='@/assets/curso/temas/bg/icono-descargar-7.svg', style="width: 80px")
             .flex-grow-1.text-center.text-lg-start
               h4.mb-2.text-white Protección de datos personales: casos de análisis y práctica sobre cumplimiento normativo
               p.mb-0.text-white Se invita a leer el documento <b>Protección de Datos Personales: Casos de análisis y práctica sobre cumplimiento normativo</b>, donde se abordan situaciones organizacionales relacionadas con el cumplimiento de la Ley 1581 de 2012 mediante casos prácticos enfocados en inspecciones de la autoridad de control, acceso no autorizado a datos sensibles, atención de los derechos de los titulares y uso de bases de datos sin autorización verificable. 
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_06_Proteccion_Datos_Personales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-12
           .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-11.p-4.rounded-4
             .flex-shrink-0.mb-3.mb-lg-0.pe-lg-4
-              img(src='@/assets/curso/temas/bg/icono-descargar.svg', style="width: 80px")
+              img(src='@/assets/curso/temas/bg/icono-descargar-8.svg', style="width: 80px")
             .flex-grow-1.text-center.text-lg-start
               h4.mb-2.text-white Aplicación organizacional de la protección de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Aplicación organizacional de la protección de datos personales</b>, donde se aborda la implementación práctica de la protección de datos personales en las organizaciones, a partir de las políticas de tratamiento, las medidas administrativas, técnicas y físicas de seguridad, las buenas prácticas y la mejora continua, conforme a la Ley 1581 de 2012. 
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_07_Aplicacion_Organizacional.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 </template>

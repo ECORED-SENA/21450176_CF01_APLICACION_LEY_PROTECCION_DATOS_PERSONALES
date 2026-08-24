@@ -54,6 +54,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo:</b> 
             br
+            br
             | Una empresa solicita información personal a sus clientes para registrar las garantías de sus productos. Antes de recopilar los datos, informa claramente la finalidad del tratamiento y obtiene la autorización correspondiente. De esta manera, actúa conforme a los principios de legalidad, finalidad y libertad establecidos en la Ley 1581 de 2012. Los principales aspectos que deben considerarse para garantizar el cumplimiento del principio de finalidad son los siguientes:
             ul.lista-ul.color-vinotinto-custom.mb-0
               li.d-flex.mt-3
@@ -94,7 +95,7 @@
             img.mx-auto(src="@/assets/curso/temas/t3/img5.png", data-aos="zoom-in", style="width: 500px; width: 100%;")
         .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
           p.p-3.bg-color-6.mb-3.rounded-4 La calidad de la información constituye un elemento esencial para garantizar un tratamiento adecuado de los datos personales. La información debe mantenerse exacta, verificable, comprensible, actualizada y accesible para los titulares cuando ejerzan sus derechos.
-          p.p-3.bg-color-7.rounded-4.mb-0 La aplicación de estos principios permite que las organizaciones administren información confiable, reduzcan riesgos asociados con errores en los datos y garanticen que los titulares puedan conocer, actualizar o rectificar su información cuando sea necesario. Los principios relacionados con la calidad de la información se presentan a continuación:
+          p.p-3.bg-color-9.rounded-4.mb-0 La aplicación de estos principios permite que las organizaciones administren información confiable, reduzcan riesgos asociados con errores en los datos y garanticen que los titulares puedan conocer, actualizar o rectificar su información cuando sea necesario. Los principios relacionados con la calidad de la información se presentan a continuación:
       //- Pestanas horizontales
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
@@ -266,7 +267,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de los principios rectores para el tratamiento de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de los principios rectores para el tratamiento de datos personales</b>, donde se aborda la aplicación práctica de los principios rectores establecidos en la Ley 1581 de 2012 mediante casos de análisis, ejemplos organizacionales y actividades de integración.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_03_Actividades_Aplicación_Analisis.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 </template>

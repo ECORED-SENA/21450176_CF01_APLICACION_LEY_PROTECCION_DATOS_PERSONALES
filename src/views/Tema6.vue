@@ -105,19 +105,19 @@
                         figure
                           img(src='@/assets/curso/temas/t6/img3.png', style="width: 500px", data-aos="zoom-in").m-auto
               //- Fin Carrusel
-            .row.mb-5.justify-content-center.align-items-center        
-              .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
-                figure.mb-0.text-center
-                  img.mx-auto(src='@/assets/curso/temas/t6/img4.png', alt='', style="width: 100%; max-width: 500px;")
-              .col-12.col-lg-7.order-2.order-lg-2.bg-color-4.p-4(data-aos="fade-left")
-                p.mb-2.fw-bold Ejemplo
-                p.mb-0 Una empresa de comercio electrónico solicita el nombre, la dirección, el teléfono, el correo electrónico y los datos necesarios para procesar las compras de sus clientes. Como define qué información recopila, con qué finalidad la utiliza y cómo será administrada, actúa como responsable del tratamiento.
-            //- Título nivel 3 - Imagen
-            .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
-              img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
-              h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Aplicación práctica
-            //- Título nivel 3 - Imagen
-            p(data-aos="fade-left") Antes de iniciar un nuevo tratamiento de datos personales, el responsable puede utilizar una matriz de verificación como la siguiente para comprobar el cumplimiento de sus obligaciones:
+      .row.mb-5.justify-content-center.align-items-center        
+        .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
+          figure.mb-0.text-center
+            img.mx-auto(src='@/assets/curso/temas/t6/img4.png', alt='', style="width: 100%; max-width: 500px;")
+        .col-12.col-lg-7.order-2.order-lg-2.bg-color-13.p-4(data-aos="fade-left")
+          p.mb-2.fw-bold Ejemplo
+          p.mb-0 Una empresa de comercio electrónico solicita el nombre, la dirección, el teléfono, el correo electrónico y los datos necesarios para procesar las compras de sus clientes. Como define qué información recopila, con qué finalidad la utiliza y cómo será administrada, actúa como responsable del tratamiento.
+      //- Título nivel 3 - Imagen
+      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Aplicación práctica
+      //- Título nivel 3 - Imagen
+      p(data-aos="fade-left") Antes de iniciar un nuevo tratamiento de datos personales, el responsable puede utilizar una matriz de verificación como la siguiente para comprobar el cumplimiento de sus obligaciones:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
@@ -237,7 +237,7 @@
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t6/img8.png', alt='', style="width: 100%; max-width: 450px;")
-        .col-12.col-lg-7.order-2.order-lg-1.bg-color-4.p-4(data-aos="fade-left")
+        .col-12.col-lg-7.order-2.order-lg-1.bg-color-9.p-4(data-aos="fade-left")
           p.mb-2.fw-bold Ejemplo
           p.mb-0 Una empresa contrata un proveedor de software para administrar la nómina de sus trabajadores. El proveedor procesa información laboral y financiera siguiendo las instrucciones impartidas por la empresa. En este caso, el proveedor actúa como encargado del tratamiento.
       p(data-aos="fade-left") Las principales responsabilidades del encargado del tratamiento son las siguientes:
@@ -486,7 +486,7 @@
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t6/img13.png', alt='', style="width: 100%; max-width: 500px;")
-        .col-12.col-lg-7.order-2.order-lg-2.bg-color-4.p-4(data-aos="fade-left")
+        .col-12.col-lg-7.order-2.order-lg-2.bg-color-13.p-4(data-aos="fade-left")
           p.mb-2.fw-bold Aplicación práctica
           p.mb-0 La documentación relacionada con el tratamiento de datos personales debe mantenerse organizada, actualizada y protegida mediante controles de acceso. Asimismo, es recomendable establecer responsables de su administración, fechas de revisión periódica y mecanismos de control de versiones que permitan asegurar que toda la organización utilice los documentos vigentes.
 </template>

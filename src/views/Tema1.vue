@@ -179,19 +179,19 @@
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                         figure
                           img(src='@/assets/curso/temas/t1/img6.png', style="width: 500px", data-aos="zoom-in").m-auto
-              //- Fin Carrusel
-            .row.justify-content-center.align-items-stretch.mt-5
-              .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-                .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
-                  p.mb-0 La materialización de estos riesgos puede afectar la confidencialidad, la integridad y la disponibilidad de la información. Por esta razón, las organizaciones deben implementar medidas administrativas, técnicas y organizacionales que permitan identificar, evaluar, controlar y mitigar los riesgos durante todo el ciclo de vida de los datos personales.
-              .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-                .h-100.d-flex
-                  img.rounded-3(src="@/assets/curso/temas/t1/img7.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
-              .col-12.col-md-12.col-lg-4(data-aos="fade-left")
-                .h-100.d-flex.flex-column.justify-content-end.ps-lg-4
-                  .mb-3.d-flex.justify-content-start
-                    img(src="@/assets/curso/temas/bg/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
-                  p.mb-0 Una adecuada gestión del riesgo fortalece el cumplimiento normativo, protege los derechos de los titulares y contribuye a preservar la continuidad de las operaciones institucionales.
+        //- Fin Carrusel
+      .row.justify-content-center.align-items-stretch
+        .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+          .bg-color-9.p-4.rounded-4.h-100.d-flex.align-items-center
+            p.mb-0 La materialización de estos riesgos puede afectar la confidencialidad, la integridad y la disponibilidad de la información. Por esta razón, las organizaciones deben implementar medidas administrativas, técnicas y organizacionales que permitan identificar, evaluar, controlar y mitigar los riesgos durante todo el ciclo de vida de los datos personales.
+        .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+          .h-100.d-flex
+            img.rounded-3(src="@/assets/curso/temas/t1/img7.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
+        .col-12.col-md-12.col-lg-4(data-aos="fade-left")
+          .h-100.d-flex.flex-column.justify-content-end.ps-lg-4
+            .mb-3.d-flex.justify-content-start
+              img(src="@/assets/curso/temas/bg/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
+            p.mb-0 Una adecuada gestión del riesgo fortalece el cumplimiento normativo, protege los derechos de los titulares y contribuye a preservar la continuidad de las operaciones institucionales.
       Separador
       //- Inicio Tema1.2
       .row
@@ -252,7 +252,7 @@
             img.mx-auto(src="@/assets/curso/temas/t1/img10.png", data-aos="zoom-in", style="width: 500px; width: 100%;")
         .col-12.col-lg-7.order-2.order-lg-2(data-aos="fade-right")
           p.p-3.bg-color-2.mb-3 La protección de datos personales constituye un elemento estratégico para las organizaciones modernas. Una adecuada gestión de la información fortalece la confianza, promueve la transparencia y contribuye a la sostenibilidad institucional, al tiempo que favorece el cumplimiento de las obligaciones legales relacionadas con el tratamiento de los datos personales.
-          p.p-3.bg-color-8.rounded-4.mb-0 Las organizaciones que implementan prácticas responsables de tratamiento de datos mejoran sus procesos internos, reducen riesgos y fortalecen la relación con clientes, usuarios, trabajadores, proveedores y demás grupos de interés. Los principales aspectos que evidencian la importancia organizacional de la protección de datos son los siguientes:
+          p.p-3.bg-color-8.mb-0 Las organizaciones que implementan prácticas responsables de tratamiento de datos mejoran sus procesos internos, reducen riesgos y fortalecen la relación con clientes, usuarios, trabajadores, proveedores y demás grupos de interés. Los principales aspectos que evidencian la importancia organizacional de la protección de datos son los siguientes:
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
@@ -289,7 +289,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de la protección de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de la protección de datos personales</b>, donde se aborda la aplicación práctica de los principios, derechos, obligaciones y medidas relacionadas con la protección de datos personales mediante casos de estudio y una actividad de diagnóstico organizacional.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Lectura-Programas-técnicos-para-la-prevención-sanitaria.docx')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01_Actividades_Proteccion_Datos_Personales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 
