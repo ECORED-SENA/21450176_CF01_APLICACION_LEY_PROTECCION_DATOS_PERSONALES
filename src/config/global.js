@@ -304,7 +304,7 @@ export default {
     {
       referencia:
         'RISKS International. (2024, 25 de julio). Protección de datos personales en Colombia: Derechos, clasificación y normativas.',
-      link: 'https://www.risksint.com/proteccion-de-datos/proteccion-de-datos-personales-en-colombia-derechos-clasificacion-y-normativas/',
+      link: '',
     },
     {
       referencia:
