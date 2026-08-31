@@ -71,21 +71,21 @@
                             .col-auto
                               img(src='@/assets/curso/temas/t6/tarjeta02_1.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
-                            h4.card-title.text-center.mb-3.fw-bold Quién es
+                            h4.card-title.text-center.mb-3.fw-bold ¿Quién es?
                             p.text-center Persona natural o jurídica, pública o privada, que decide sobre el tratamiento de los datos personales.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t6/tarjeta02_2.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
-                            h4.card-title.text-center.mb-3.fw-bold Qué define
+                            h4.card-title.text-center.mb-3.fw-bold ¿Qué define?
                             p.text-center Las finalidades, los medios de tratamiento, la conservación y la circulación de los datos.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t6/tarjeta02_3.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
-                            h4.card-title.text-center.mb-3.fw-bold Frente a quién responde
+                            h4.card-title.text-center.mb-3.fw-bold ¿Frente a quién responde?
                             p.text-center Frente a los titulares de los datos y las autoridades competentes.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3

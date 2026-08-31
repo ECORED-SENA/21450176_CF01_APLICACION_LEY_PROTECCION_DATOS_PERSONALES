@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 7
         h1 Vigilancia, control y sanciones
-      p.mb-4(data-aos="fade-left") La protección de los datos personales no depende únicamente del compromiso de las organizaciones. Para garantizar el cumplimiento de la Ley 1581 de 2012 existen mecanismos de vigilancia, control y sanción orientados a verificar que los responsables y encargados del tratamiento actúen conforme a la normativa vigente.
+      p.mb-4(data-aos="fade-left") La protección de los datos personales no depende únicamente del compromiso de las organizaciones. Para garantizar el cumplimiento de la Ley 1581 de 2012. Existen mecanismos de vigilancia, control y sanción orientados a verificar que los responsables y encargados del tratamiento actúen conforme a la normativa vigente.
       .row.align-items-center.mb-2(data-aos="fade-right")
         .col-lg-8.order-2.order-lg-1
           .row.g-0.align-items-stretch.bg-color-3.mb-4
@@ -88,7 +88,7 @@
                           img(src='@/assets/curso/temas/t7/tarjeta02_4.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Atención de los derechos de los titulares
-                            p.text-center Que existan canales de atención y respuestas oportunas a consultas y reclamaciones
+                            p.text-center Que existan canales de atención y respuestas oportunas a consultas y reclamaciones.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t7/tarjeta02_5.png').w-100
                           .p-4

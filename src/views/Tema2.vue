@@ -194,27 +194,27 @@
                           img(src='@/assets/curso/temas/t2/tarjeta05_1.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Empresa comercial
-                            p.text-center Datos de clientes y proveedores
+                            p.text-center Datos de clientes y proveedores.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t2/tarjeta05_2.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Universidad
-                            p.text-center Datos de estudiantes y docentes
+                            p.text-center Datos de estudiantes y docentes.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t2/tarjeta05_3.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Hospital
-                            p.text-center Datos de pacientes
+                            p.text-center Datos de pacientes.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t2/tarjeta05_4.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Banco
-                            p.text-center Datos de clientes y usuarios del sistema financiero
+                            p.text-center Datos de clientes y usuarios del sistema financiero.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                           img(src='@/assets/curso/temas/t2/tarjeta05_5.png').w-100
                           .p-4
                             h4.card-title.text-center.mb-3 Empresa tecnológica
-                            p.text-center Datos de usuarios de plataformas digitales
+                            p.text-center Datos de usuarios de plataformas digitales.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                         figure
                           img(src='@/assets/curso/temas/t2/img6.png', style="width: 500px", data-aos="zoom-in").m-auto
@@ -358,7 +358,7 @@
                   img.mx-auto(src="@/assets/curso/temas/t2/img10.png", data-aos="zoom-in", style="width: 500px; width: 100%;")
               .col-12.col-lg-7.order-2.order-lg-2.p-4.bg-color-6(data-aos="fade-right")
                 p.fw-bold Ejemplo
-                p Una empresa contrata un proveedor tecnológico para alojar su base de datos de clientes. En esta situación, la empresa actúa como <b>responsable del tratamiento</b>, porque determina la finalidad y el uso de los datos personales, mientras que el proveedor tecnológico actúa como <b>encargado del tratamiento</b>, ya que administra la información siguiendo las instrucciones definidas por la empresa.
+                p Una empresa contrata a un proveedor tecnológico para alojar su base de datos de clientes. En esta situación, la empresa actúa como <b>responsable del tratamiento</b>, porque determina la finalidad y el uso de los datos personales, mientras que el proveedor tecnológico actúa como <b>encargado del tratamiento</b>, ya que administra la información siguiendo las instrucciones definidas por la empresa.
             .row.justify-content-center.mb-4(data-aos="fade-left")
               .col-lg-12
                 .d-flex.flex-column.flex-lg-row.align-items-center.bg-color-11.p-4.rounded-4

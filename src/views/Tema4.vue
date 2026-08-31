@@ -55,7 +55,7 @@
                     i.fas.fa-arrow-circle-right.me-3
                     span
                       strong.d-block Medidas o consideraciones
-                      span.d-block Deben #[u utilizarse]  únicamente para finalidades legítimas. Se recomienda documentar la fuente consultada, la finalidad del tratamiento y el responsable de la consulta.
+                      span.d-block Deben utilizarse únicamente para finalidades legítimas. Se recomienda documentar la fuente consultada, la finalidad del tratamiento y el responsable de la consulta.
               .row(titulo="Datos privados")
                 p.mb-4 Son aquellos que solo interesan al titular o a un grupo limitado de personas autorizadas. Su divulgación puede afectar la privacidad, la seguridad, la situación económica o la vida laboral del titular.
                 ul.lista-ul.color-naranja-custom.mb-0
