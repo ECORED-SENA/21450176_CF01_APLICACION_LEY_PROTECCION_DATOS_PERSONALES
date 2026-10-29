@@ -207,7 +207,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -235,12 +235,12 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img9.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 Cada uno de estos aspectos ha contribuido al fortalecimiento de la protección de datos personales, permitiendo que las organizaciones desarrollen mecanismos cada vez más efectivos para garantizar el respeto por los derechos de los titulares y el cumplimiento de las obligaciones legales.
-            br
-            br
-            p <b>Ejemplo:</b>
-            br
-            br
-            p Una empresa de servicios solicita autorización previa a sus clientes antes de enviar comunicaciones comerciales. Esta práctica refleja la aplicación del marco normativo sobre protección de datos personales, ya que informa la finalidad del tratamiento y obtiene el consentimiento del titular antes de utilizar su información para actividades comerciales.
+          br
+          br
+          p <b>Ejemplo:</b>
+          br
+          br
+          p Una empresa de servicios solicita autorización previa a sus clientes antes de enviar comunicaciones comerciales. Esta práctica refleja la aplicación del marco normativo sobre protección de datos personales, ya que informa la finalidad del tratamiento y obtiene el consentimiento del titular antes de utilizar su información para actividades comerciales.
       Separador
       //- Inicio Tema1.3
       .row
@@ -256,7 +256,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -289,7 +289,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de la protección de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de la protección de datos personales</b>, donde se aborda la aplicación práctica de los principios, derechos, obligaciones y medidas relacionadas con la protección de datos personales mediante casos de estudio y una actividad de diagnóstico organizacional.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01_Actividades_Proteccion_Datos_Personales.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_01_Actividades_Proteccion_Datos_Personales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 

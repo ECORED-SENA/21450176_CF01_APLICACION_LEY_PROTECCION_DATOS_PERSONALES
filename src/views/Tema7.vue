@@ -35,7 +35,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -559,7 +559,7 @@
               h4.mb-2.text-white Protección de datos personales: casos de análisis y práctica sobre cumplimiento normativo
               p.mb-0.text-white Se invita a leer el documento <b>Protección de Datos Personales: Casos de análisis y práctica sobre cumplimiento normativo</b>, donde se abordan situaciones organizacionales relacionadas con el cumplimiento de la Ley 1581 de 2012 mediante casos prácticos enfocados en inspecciones de la autoridad de control, acceso no autorizado a datos sensibles, atención de los derechos de los titulares y uso de bases de datos sin autorización verificable. 
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_06_Proteccion_Datos_Personales.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_06_Proteccion_Datos_Personales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
       .row.justify-content-center.mb-4(data-aos="fade-left")
@@ -571,7 +571,7 @@
               h4.mb-2.text-white Aplicación organizacional de la protección de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Aplicación organizacional de la protección de datos personales</b>, donde se aborda la implementación práctica de la protección de datos personales en las organizaciones, a partir de las políticas de tratamiento, las medidas administrativas, técnicas y físicas de seguridad, las buenas prácticas y la mejora continua, conforme a la Ley 1581 de 2012. 
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_07_Aplicacion_Organizacional.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_07_Aplicacion_Organizacional.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 </template>

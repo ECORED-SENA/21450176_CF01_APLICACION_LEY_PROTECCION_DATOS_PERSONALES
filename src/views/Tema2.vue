@@ -101,9 +101,9 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img4.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo:</b>
-            br
-            br
-            p Una institución financiera recopila información de sus clientes para la apertura de productos bancarios. Antes de realizar el tratamiento de los datos, informa qué información será recopilada, con qué finalidad será utilizada, durante cuánto tiempo será conservada y cuáles son los derechos que pueden ejercer los titulares sobre sus datos personales.
+          br
+          br
+          p Una institución financiera recopila información de sus clientes para la apertura de productos bancarios. Antes de realizar el tratamiento de los datos, informa qué información será recopilada, con qué finalidad será utilizada, durante cuánto tiempo será conservada y cuáles son los derechos que pueden ejercer los titulares sobre sus datos personales.
       p(data-aos="fade-right") Los principales beneficios derivados de la finalidad de la norma se presentan a continuación:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
@@ -156,7 +156,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -368,7 +368,7 @@
                     h4.mb-2.text-white Actividades de aplicación y análisis de la Ley 1581 de 2012
                     p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de la Ley 1581 de 2012</b>, donde se aborda el ámbito de aplicación, las definiciones fundamentales, las obligaciones de las organizaciones y las excepciones previstas en la Ley 1581 de 2012 mediante casos de análisis y una actividad práctica.
                   .mt-3.mt-lg-0.ps-lg-4
-                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02_Actividades_Ley_1581_2012.pdf')" target="_blank")
+                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_02_Actividades_Ley_1581_2012.pdf')" target="_blank")
                       span.fw-bold.me-2 Descargar
                       i.fas.fa-file-download
 </template>

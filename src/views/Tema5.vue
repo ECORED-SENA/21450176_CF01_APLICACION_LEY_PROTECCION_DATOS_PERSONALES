@@ -33,7 +33,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -352,9 +352,9 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t5/img10.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Aplicación práctica</b>
-            br
-            br
-            | Al seleccionar el mecanismo para obtener la autorización, la organización debe considerar el tipo de información que será tratada y el nivel de riesgo asociado. Para datos básicos puede ser suficiente un formulario claro y verificable; en el caso de datos sensibles, es recomendable utilizar mecanismos de autenticación y conservación de evidencias que ofrezcan mayores garantías de seguridad y trazabilidad.
+          br
+          br
+          | Al seleccionar el mecanismo para obtener la autorización, la organización debe considerar el tipo de información que será tratada y el nivel de riesgo asociado. Para datos básicos puede ser suficiente un formulario claro y verificable; en el caso de datos sensibles, es recomendable utilizar mecanismos de autenticación y conservación de evidencias que ofrezcan mayores garantías de seguridad y trazabilidad.
       p(data-aos="fade-left") Las principales evidencias que permiten demostrar la autorización se presentan a continuación:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
@@ -408,14 +408,14 @@
             .col-12.col-md-7.p-4.d-flex.align-items-center
               p.mb-0 Las condiciones de legalidad corresponden a los requisitos que permiten determinar si el tratamiento de datos personales se realiza conforme a la Ley 1581 de 2012 y a las demás disposiciones aplicables. Estas condiciones garantizan que la recolección, el uso, el almacenamiento, la circulación, la conservación y la supresión de la información respeten los derechos de los titulares y respondan a una finalidad legítima.
           p.mb-3 Una organización puede disponer de procesos bien estructurados y herramientas tecnológicas avanzadas; sin embargo, si recopila información sin autorización, la utiliza para finalidades diferentes a las informadas o no garantiza el ejercicio de los derechos de los titulares, el tratamiento puede resultar contrario a la normativa.
-          pmb-0 La verificación de las condiciones de legalidad debe realizarse antes de iniciar el tratamiento, durante su ejecución y al finalizar el ciclo de vida de los datos personales. Este proceso permite identificar riesgos, prevenir incumplimientos y fortalecer la gestión de la información. Los principales aspectos relacionados con las condiciones de legalidad se presentan a continuación:
+          p.mb-0 La verificación de las condiciones de legalidad debe realizarse antes de iniciar el tratamiento, durante su ejecución y al finalizar el ciclo de vida de los datos personales. Este proceso permite identificar riesgos, prevenir incumplimientos y fortalecer la gestión de la información. Los principales aspectos relacionados con las condiciones de legalidad se presentan a continuación:
         .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
           figure.mb-0
             img(src="@/assets/curso/temas/t5/img13.png", data-aos="zoom-in", style="width: 100%; max-width: 380px;").mx-auto
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -495,22 +495,22 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t5/img15.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 La aplicación de estas condiciones permite demostrar que el tratamiento de los datos personales se desarrolla conforme a los principios de legalidad, finalidad, transparencia y responsabilidad. Los elementos que caracterizan un tratamiento autorizado se presentan a continuación:
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Finalidad:</b> definir un propósito claro, específico y conocido por el titular antes de realizar el tratamiento de los datos personales.    
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Autorización:</b> obtener y conservar una autorización previa, expresa, informada y verificable, cuando sea exigible.
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Uso de los datos:</b> garantizar que la información se utilice únicamente para la finalidad autorizada por el titular o permitida por la ley.
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Acceso interno:</b> restringir el acceso a los datos personales exclusivamente al personal autorizado según sus funciones.
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Evidencia:</b> conservar los soportes y registros necesarios para demostrar el cumplimiento de las obligaciones en procesos de verificación o auditoría.      
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Finalidad:</b> definir un propósito claro, específico y conocido por el titular antes de realizar el tratamiento de los datos personales.    
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Autorización:</b> obtener y conservar una autorización previa, expresa, informada y verificable, cuando sea exigible.
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Uso de los datos:</b> garantizar que la información se utilice únicamente para la finalidad autorizada por el titular o permitida por la ley.
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Acceso interno:</b> restringir el acceso a los datos personales exclusivamente al personal autorizado según sus funciones.
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Evidencia:</b> conservar los soportes y registros necesarios para demostrar el cumplimiento de las obligaciones en procesos de verificación o auditoría.      
       .row.mb-5.justify-content-center.align-items-center        
         .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0.text-center
@@ -573,7 +573,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de los derechos de los titulares y las condiciones de legalidad
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de los derechos de los titulares y las condiciones de legalidad</b>, donde se aborda la aplicación práctica de los derechos de los titulares, la autorización para el tratamiento de datos personales y las condiciones de legalidad establecidas en la Ley 1581 de 2012.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_05_Derechos_Titulares_Condiciones_Legalidad.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_05_Derechos_Titulares_Condiciones_Legalidad.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download                  
 </template>

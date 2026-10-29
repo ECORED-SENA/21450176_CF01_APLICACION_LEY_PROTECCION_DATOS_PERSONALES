@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Ley 1581 de 2012s',
+        titulo: 'Ley 1581 de 2012',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -224,7 +224,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/21450176_CF01_CFA.pdf',
+        download: 'downloads/21450176_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -309,7 +309,7 @@ export default {
     {
       referencia:
         'Superintendencia de Industria y Comercio. (2023). Protección de datos personales.',
-      link: 'https://www.sic.gov.co/proteccion-de-datos-personales',
+      link: '',
     },
     {
       referencia:

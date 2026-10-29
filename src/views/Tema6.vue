@@ -31,7 +31,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -58,7 +58,7 @@
 
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
+          .pt-3.px-5
             //- Carrusel
             .bg-full-width
               .px-4.px-md-5.pb-md-3
@@ -110,7 +110,7 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t6/img4.png', alt='', style="width: 100%; max-width: 500px;")
         .col-12.col-lg-7.order-2.order-lg-2.bg-color-13.p-4(data-aos="fade-left")
-          p.mb-2.fw-bold Ejemplo
+          p.mb-2.fw-bold Ejemplo aplicado
           p.mb-0 Una empresa de comercio electrónico solicita el nombre, la dirección, el teléfono, el correo electrónico y los datos necesarios para procesar las compras de sus clientes. Como define qué información recopila, con qué finalidad la utiliza y cómo será administrada, actúa como responsable del tratamiento.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -188,7 +188,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -238,8 +238,8 @@
           figure.mb-0.text-center
             img.mx-auto(src='@/assets/curso/temas/t6/img8.png', alt='', style="width: 100%; max-width: 450px;")
         .col-12.col-lg-7.order-2.order-lg-1.bg-color-9.p-4(data-aos="fade-left")
-          p.mb-2.fw-bold Ejemplo
-          p.mb-0 Una empresa contrata un proveedor de software para administrar la nómina de sus trabajadores. El proveedor procesa información laboral y financiera siguiendo las instrucciones impartidas por la empresa. En este caso, el proveedor actúa como encargado del tratamiento.
+          p.mb-2.fw-bold Ejemplo aplicado
+          p.mb-0 Una empresa contrata un proveedor de #[i software] para administrar la nómina de sus trabajadores. El proveedor procesa información laboral y financiera siguiendo las instrucciones impartidas por la empresa. En este caso, el proveedor actúa como encargado del tratamiento.
       p(data-aos="fade-left") Las principales responsabilidades del encargado del tratamiento son las siguientes:
       .row.bg-fondo-1(data-aos="fade-right")
         .col-12
@@ -343,7 +343,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -370,7 +370,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure

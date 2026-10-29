@@ -53,29 +53,29 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img3.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo:</b> 
-            br
-            br
-            | Una empresa solicita información personal a sus clientes para registrar las garantías de sus productos. Antes de recopilar los datos, informa claramente la finalidad del tratamiento y obtiene la autorización correspondiente. De esta manera, actúa conforme a los principios de legalidad, finalidad y libertad establecidos en la Ley 1581 de 2012. Los principales aspectos que deben considerarse para garantizar el cumplimiento del principio de finalidad son los siguientes:
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Finalidad específica:</b> la información debe recopilarse para un propósito concreto y previamente definido.
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Información al titular:</b> la finalidad debe comunicarse de manera clara antes de realizar el tratamiento de los datos. 
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Relación con la actividad de la organización:</b> el tratamiento debe responder a las funciones y actividades propias de la organización. 
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Prohibición de cambios arbitrarios:</b> los datos no pueden utilizarse para finalidades diferentes sin la autorización correspondiente o sin respaldo legal. 
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Trazabilidad:</b> la organización debe conservar evidencia que permita demostrar la finalidad para la cual fueron recopilados los datos personales.
+          br
+          br
+          | Una empresa solicita información personal a sus clientes para registrar las garantías de sus productos. Antes de recopilar los datos, informa claramente la finalidad del tratamiento y obtiene la autorización correspondiente. De esta manera, actúa conforme a los principios de legalidad, finalidad y libertad establecidos en la Ley 1581 de 2012. Los principales aspectos que deben considerarse para garantizar el cumplimiento del principio de finalidad son los siguientes:
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Finalidad específica:</b> la información debe recopilarse para un propósito concreto y previamente definido.
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Información al titular:</b> la finalidad debe comunicarse de manera clara antes de realizar el tratamiento de los datos. 
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Relación con la actividad de la organización:</b> el tratamiento debe responder a las funciones y actividades propias de la organización. 
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Prohibición de cambios arbitrarios:</b> los datos no pueden utilizarse para finalidades diferentes sin la autorización correspondiente o sin respaldo legal. 
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Trazabilidad:</b> la organización debe conservar evidencia que permita demostrar la finalidad para la cual fueron recopilados los datos personales.
       .row.align-items-center.mb-4
         .col-12.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
           figure.mb-0
@@ -130,25 +130,25 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img6.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo: </b>
-            br
-            br
-            | Una entidad financiera mantiene desactualizada la dirección de un cliente y envía comunicaciones a una ubicación incorrecta. Esta situación evidencia la importancia de verificar periódicamente la exactitud de la información y de implementar mecanismos que permitan mantener los datos actualizados durante todo su ciclo de vida. Los principales beneficios de garantizar la veracidad de la información son los siguientes:
-            ul.lista-ul.color-vinotinto-custom.mb-0
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Mejora de la calidad de los procesos:</b> favorece la confiabilidad y consistencia de la información utilizada por la organización. 
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Reducción de errores administrativos:</b> disminuye inconsistencias, reprocesos y errores derivados de datos incorrectos o desactualizados. 
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Apoyo a la toma de decisiones:</b> facilita la adopción de decisiones fundamentadas en información precisa, completa y actualizada. 
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Fortalecimiento de la confianza de los titulares:</b> incrementa la credibilidad de la organización mediante un tratamiento responsable de los datos personales. 
-              li.d-flex.mt-3
-                .fas.fa-check-circle.me-3
-                span <b>Disminución de riesgos operativos:</b> reduce la probabilidad de incidentes asociados al uso de información inexacta, incompleta o desactualizada.
+          br
+          br
+          | Una entidad financiera mantiene desactualizada la dirección de un cliente y envía comunicaciones a una ubicación incorrecta. Esta situación evidencia la importancia de verificar periódicamente la exactitud de la información y de implementar mecanismos que permitan mantener los datos actualizados durante todo su ciclo de vida. Los principales beneficios de garantizar la veracidad de la información son los siguientes:
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Mejora de la calidad de los procesos:</b> favorece la confiabilidad y consistencia de la información utilizada por la organización. 
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Reducción de errores administrativos:</b> disminuye inconsistencias, reprocesos y errores derivados de datos incorrectos o desactualizados. 
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Apoyo a la toma de decisiones:</b> facilita la adopción de decisiones fundamentadas en información precisa, completa y actualizada. 
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Fortalecimiento de la confianza de los titulares:</b> incrementa la credibilidad de la organización mediante un tratamiento responsable de los datos personales. 
+            li.d-flex.mt-3
+              .fas.fa-check-circle.me-3
+              span <b>Disminución de riesgos operativos:</b> reduce la probabilidad de incidentes asociados al uso de información inexacta, incompleta o desactualizada.
       Separador
       //- Inicio Tema3.3
       .row
@@ -167,7 +167,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -267,7 +267,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de los principios rectores para el tratamiento de datos personales
               p.mb-0.text-white Se invita a leer el documento <b>Actividades de aplicación y análisis de los principios rectores para el tratamiento de datos personales</b>, donde se aborda la aplicación práctica de los principios rectores establecidos en la Ley 1581 de 2012 mediante casos de análisis, ejemplos organizacionales y actividades de integración.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_03_Actividades_Aplicación_Analisis.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_03_Actividades_Aplicación_Analisis.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 </template>

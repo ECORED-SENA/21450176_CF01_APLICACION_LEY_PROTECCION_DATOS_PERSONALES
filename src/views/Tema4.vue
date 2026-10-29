@@ -89,15 +89,15 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img5.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo:</b> 
-            br
-            br
-            | Una empresa consulta el registro mercantil de un proveedor antes de iniciar un proceso de contratación. La información corresponde a datos públicos y se utiliza para verificar la existencia legal del proveedor dentro de una finalidad legítima relacionada con el proceso contractual.
-            br
-            br
-            | Por su parte, el área de talento humano administra hojas de vida, contratos, evaluaciones de desempeño, incapacidades y datos familiares de los trabajadores. Esta información corresponde a datos privados y debe conservarse con medidas de seguridad que limiten su consulta al personal autorizado.
-            br
-            br
-            | De igual forma, una entidad financiera consulta el historial crediticio de una persona que solicita un préstamo. En este caso, la información corresponde a datos semiprivados y su tratamiento debe realizarse conforme a las condiciones legales aplicables y a la finalidad relacionada con la evaluación del riesgo crediticio.
+          br
+          br
+          | Una empresa consulta el registro mercantil de un proveedor antes de iniciar un proceso de contratación. La información corresponde a datos públicos y se utiliza para verificar la existencia legal del proveedor dentro de una finalidad legítima relacionada con el proceso contractual.
+          br
+          br
+          | Por su parte, el área de talento humano administra hojas de vida, contratos, evaluaciones de desempeño, incapacidades y datos familiares de los trabajadores. Esta información corresponde a datos privados y debe conservarse con medidas de seguridad que limiten su consulta al personal autorizado.
+          br
+          br
+          | De igual forma, una entidad financiera consulta el historial crediticio de una persona que solicita un préstamo. En este caso, la información corresponde a datos semiprivados y su tratamiento debe realizarse conforme a las condiciones legales aplicables y a la finalidad relacionada con la evaluación del riesgo crediticio.
       .row.mb-5.justify-content-center.align-items-center
           .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
             figure.mb-0.text-center
@@ -121,7 +121,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -199,12 +199,12 @@
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img9.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 <b>Ejemplo</b>
-            br
-            br
-            | Una clínica administra historias clínicas que contienen diagnósticos, tratamientos, antecedentes médicos y resultados de exámenes. Debido a la naturaleza de esta información, debe implementar controles reforzados que garanticen la confidencialidad, la integridad y la disponibilidad de los datos.
-            br
-            br
-            | Otro ejemplo corresponde a una empresa que utiliza la huella dactilar para controlar el ingreso de sus trabajadores. Al tratarse de un dato biométrico, la organización debe justificar su utilización, obtener la autorización correspondiente e implementar medidas técnicas y administrativas que garanticen su protección.      
+          br
+          br
+          | Una clínica administra historias clínicas que contienen diagnósticos, tratamientos, antecedentes médicos y resultados de exámenes. Debido a la naturaleza de esta información, debe implementar controles reforzados que garanticen la confidencialidad, la integridad y la disponibilidad de los datos.
+          br
+          br
+          | Otro ejemplo corresponde a una empresa que utiliza la huella dactilar para controlar el ingreso de sus trabajadores. Al tratarse de un dato biométrico, la organización debe justificar su utilización, obtener la autorización correspondiente e implementar medidas técnicas y administrativas que garanticen su protección.      
       .row.justify-content-center.align-items-stretch.mb-3.g-0(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
@@ -416,7 +416,7 @@
               h4.mb-2.text-white Actividades de aplicación y análisis de las categorías especiales de datos personales
               p.mb-0.text-white Se invita a leer el documento<b> Actividades de aplicación y análisis de las categorías especiales de datos personales</b>, donde se aborda la clasificación de los datos personales, el tratamiento de datos sensibles y de niños, niñas y adolescentes, así como las medidas de protección exigidas por la Ley 1581 de 2012.
             .mt-3.mt-lg-0.ps-lg-4
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_04_Categorias_Especiales.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_04_Categorias_Especiales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 
